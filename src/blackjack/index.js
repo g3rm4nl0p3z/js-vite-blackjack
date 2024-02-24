@@ -92,7 +92,7 @@ const moduloBlackjack = (() => {
 
           btnPedirCarta.disabled = true;
           btnDetener.disabled = true;
-      }, 50);
+      }, 100);
 
   };
 
