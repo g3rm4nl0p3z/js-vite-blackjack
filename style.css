@@ -1,0 +1,21 @@
+
+html, body {
+  margin: 0px;
+  background-color: #2F4F30;
+  color: #FFF;
+}
+
+.titles {
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.cards {
+  position: relative;
+  left: 50px;
+  width: 125px;
+  margin-left: -50px;
+}

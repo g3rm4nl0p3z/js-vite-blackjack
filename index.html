@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlackJack | Vite</title>
+
+    <!-- Styles (Bootstrap) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <h1 class="titles">
+            BlackJack
+        </h1>
+    </header>
+    <div class="row mt-2">
+        <div class="col text-center">
+            <button id="btn-nuevo-juego" class="btn btn-danger" type="button">Nuevo juego</button>
+            <button id="btn-pedir-carta" class="btn btn-primary" type="button" disabled>Pedir carta</button>
+            <button id="btn-detener" class="btn btn-primary" type="button" disabled>Detener</button>
+        </div>
+    </div>
+    <div class="row container mt-3">
+        <div class="col">
+            <h3>Jugador - <span class="puntaje-jugador">0</span></h3>
+            <div class="player-cards">
+            </div>
+        </div>
+    </div>
+    <div class="row container mt-3 mb-3">
+        <div class="col">
+            <h3>Dealer - <span class="puntaje-jugador">0</span></h3>
+            <div class="player-cards">
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
